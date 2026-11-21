@@ -7,7 +7,11 @@
 <title>EXPOGEN 2026 | Registration</title>
 
 <style>
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -18,9 +22,30 @@ body {
 
 header {
   text-align: center;
-  padding: 65px 20px 45px;
+  padding: 35px 18px 45px;
   background: linear-gradient(135deg, #241044, #100b1c);
   border-bottom: 3px solid #9b59ff;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 850px;
+  margin: 0 auto 25px;
+}
+
+.logos img {
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+}
+
+.college-heading {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #e0caff;
+  margin-bottom: 5px;
 }
 
 .tag {
@@ -30,7 +55,7 @@ header {
 }
 
 h1 {
-  font-size: clamp(38px, 8vw, 65px);
+  font-size: clamp(36px, 8vw, 65px);
   color: #c69aff;
   margin: 12px 0;
   letter-spacing: 2px;
@@ -114,9 +139,23 @@ footer {
 }
 
 @media(max-width: 480px) {
-  .category { padding: 16px; }
-  .event-name { font-size: 13px; }
-  .register { padding: 8px 10px; font-size: 12px; }
+  .logos img {
+    width: 65px;
+    height: 65px;
+  }
+  .college-heading {
+    font-size: 10px;
+  }
+  .category {
+    padding: 16px;
+  }
+  .event-name {
+    font-size: 13px;
+  }
+  .register {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
 }
 </style>
 </head>
@@ -124,10 +163,24 @@ footer {
 <body>
 
 <header>
+
+  <div class="logos">
+    <img src="enigma-logo.png" alt="ENIGMA Logo">
+    <img src="mogaveera-logo.png" alt="Mogaveera Mandali Logo">
+  </div>
+
+  <div class="college-heading">
+    M V MANDALI'S COLLEGES OF COMMERCE & SCIENCE
+  </div>
+
   <div class="tag">MINECRAFT EDITION</div>
+
   <h1>EXPOGEN 2026</h1>
+
   <div class="subtitle">BUILD. CODE. CREATE.</div>
+
   <div class="date">25 – 26 NOVEMBER 2026</div>
+
 </header>
 
 <main>
@@ -139,47 +192,47 @@ footer {
 
 <section class="category">
 <h2>💻 CODING EVENTS</h2>
-<div class="event"><span class="event-name">Duo Coding – Code Craft</span><a class="register" href="FORM_LINK_01">Register ↗</a></div>
-<div class="event"><span class="event-name">Blind Coding – Shadow Coding</span><a class="register" href="FORM_LINK_02">Register ↗</a></div>
-<div class="event"><span class="event-name">Bug Hunt – Debug Craft</span><a class="register" href="FORM_LINK_03">Register ↗</a></div>
+<div class="event"><span class="event-name">Duo Coding – Code Craft</span><a class="register" href="FORM_LINK_01" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Blind Coding – Shadow Coding</span><a class="register" href="FORM_LINK_02" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Bug Hunt – Debug Craft</span><a class="register" href="FORM_LINK_03" target="_blank">Register ↗</a></div>
 </section>
 
 <section class="category">
 <h2>🎨 CREATIVE DESIGN EVENTS</h2>
-<div class="event"><span class="event-name">Logo Making – Pixel Crest</span><a class="register" href="FORM_LINK_04">Register ↗</a></div>
-<div class="event"><span class="event-name">Flyer Making – Pixel Poster</span><a class="register" href="FORM_LINK_05">Register ↗</a></div>
+<div class="event"><span class="event-name">Logo Making – Pixel Crest</span><a class="register" href="FORM_LINK_04" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Flyer Making – Pixel Poster</span><a class="register" href="FORM_LINK_05" target="_blank">Register ↗</a></div>
 </section>
 
 <section class="category">
 <h2>🧠 TECH & KNOWLEDGE EVENTS</h2>
-<div class="event"><span class="event-name">Tech Quiz – Diamond Minds</span><a class="register" href="FORM_LINK_06">Register ↗</a></div>
-<div class="event"><span class="event-name">Technical Debate – Block & Argue</span><a class="register" href="FORM_LINK_07">Register ↗</a></div>
-<div class="event"><span class="event-name">AI Prompt Challenge</span><a class="register" href="FORM_LINK_08">Register ↗</a></div>
+<div class="event"><span class="event-name">Tech Quiz – Diamond Minds</span><a class="register" href="FORM_LINK_06" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Technical Debate – Block & Argue</span><a class="register" href="FORM_LINK_07" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">AI Prompt Challenge</span><a class="register" href="FORM_LINK_08" target="_blank">Register ↗</a></div>
 </section>
 
 <section class="category">
 <h2>💡 INNOVATION & RESEARCH EVENTS</h2>
-<div class="event"><span class="event-name">Research Paper Presentation – Block of Knowledge</span><a class="register" href="FORM_LINK_09">Register ↗</a></div>
-<div class="event"><span class="event-name">Project Exhibition – Block Verse</span><a class="register" href="FORM_LINK_10">Register ↗</a></div>
+<div class="event"><span class="event-name">Research Paper Presentation – Block of Knowledge</span><a class="register" href="FORM_LINK_09" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Project Exhibition – Block Verse</span><a class="register" href="FORM_LINK_10" target="_blank">Register ↗</a></div>
 </section>
 
 <section class="category">
 <h2>🎯 E-SPORTS EVENTS</h2>
-<div class="event"><span class="event-name">BGMI</span><a class="register" href="FORM_LINK_11">Register ↗</a></div>
-<div class="event"><span class="event-name">Free Fire</span><a class="register" href="FORM_LINK_12">Register ↗</a></div>
+<div class="event"><span class="event-name">BGMI</span><a class="register" href="FORM_LINK_11" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Free Fire</span><a class="register" href="FORM_LINK_12" target="_blank">Register ↗</a></div>
 </section>
 
 <section class="category">
 <h2>📱 SOCIAL MEDIA EVENTS</h2>
-<div class="event"><span class="event-name">Reel Making – Reel & Craft</span><a class="register" href="FORM_LINK_13">Register ↗</a></div>
-<div class="event"><span class="event-name">Photography – Pixel Snap</span><a class="register" href="FORM_LINK_14">Register ↗</a></div>
+<div class="event"><span class="event-name">Reel Making – Reel & Craft</span><a class="register" href="FORM_LINK_13" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Photography – Pixel Snap</span><a class="register" href="FORM_LINK_14" target="_blank">Register ↗</a></div>
 </section>
 
 <section class="category">
 <h2>🎮 GAMING EVENTS</h2>
-<div class="event"><span class="event-name">FIFA</span><a class="register" href="FORM_LINK_15">Register ↗</a></div>
-<div class="event"><span class="event-name">Minecraft – Build Battle</span><a class="register" href="FORM_LINK_16">Register ↗</a></div>
-<div class="event"><span class="event-name">Minecraft – Treasure Hunt</span><a class="register" href="FORM_LINK_17">Register ↗</a></div>
+<div class="event"><span class="event-name">FIFA</span><a class="register" href="FORM_LINK_15" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Minecraft – Build Battle</span><a class="register" href="FORM_LINK_16" target="_blank">Register ↗</a></div>
+<div class="event"><span class="event-name">Minecraft – Treasure Hunt</span><a class="register" href="FORM_LINK_17" target="_blank">Register ↗</a></div>
 </section>
 
 </main>
